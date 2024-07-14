@@ -1,0 +1,427 @@
+
+@media(max-width:4000px) and (max-height:670px){
+    .controles{
+        left:950px
+    }
+
+    .volume_mute_button{
+        left:900px;
+    }
+}
+
+@media (max-width:1850px){
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 1250px;
+    }
+
+    .toggleFullscreen{
+        left:1300px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:1250px;
+    }
+
+    .controles{
+        left:950px;
+    }
+
+    .volume_mute_button{
+        left:900px;
+    }
+}
+
+@media (max-width:1800px){
+    .controles{
+        left:1200px
+    }
+
+    .volume_mute_button{
+        left:1150px;
+    }
+
+    .toggleFullscreen{
+        left:1250px;
+    }
+
+    .toggleFullscreeninFullscreen{
+        left:1400px;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:1400px;
+    }
+    
+    .controles_Fullscreen{
+        left:1550px;
+    }
+
+    .controles{
+        left:900px
+    }
+
+    .volume_mute_button{
+        left:850px;
+    }
+}
+
+@media (max-width:1750px){
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 1100px;
+    }
+
+    .toggleFullscreeninFullscreen{
+        left:1300px !important;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:1300px !important;
+    }
+    
+    .controles_Fullscreen{
+        left:1450px !important;
+    }
+
+    .controles{
+        left:1150px
+    }
+
+    .volume_mute_button{
+        left:1100px;
+    }
+
+    .toggleFullscreen{
+        left:1200px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:1200px;
+    }
+
+    .controles{
+        left:950px
+    }
+
+    .volume_mute_button{
+        left:900px;
+    }
+}
+
+@media (max-width:1600px){
+    .controles{
+        left:850px
+    }
+
+    .volume_mute_button{
+        left:800px;
+    }
+
+    .toggleFullscreen{
+        left:1100px;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:1100px !important;
+    }
+    
+    .controles_Fullscreen{
+        left:1250px !important;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 950px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:1100px;
+    }
+}
+
+@media (max-width:1400px){
+    .controles{
+        left:900px
+    }
+
+    .volume_mute_button{
+        left:850px;
+    }
+
+    .toggleFullscreen{
+        left:950px;
+    }
+
+    .toggleFullscreeninFullscreen{
+        left:1100px !important;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:900px !important;
+    }
+    
+    .controles_Fullscreen{
+        left:1050px !important;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:1000px;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 1140px;
+    }
+}
+
+@media (max-width:1200px){
+    .toggleFullscreeninFullscreen{
+        left:1000px !important;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:800px !important;
+    }
+    
+    .controles_Fullscreen{
+        left:950px !important;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 930px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:900px;
+    }
+}
+
+@media (max-width:1100px){
+    .controles{
+        left:800px
+    }
+
+    .volume_mute_button{
+        left:750px;
+    }
+
+    .toggleFullscreen{
+        left:850px;
+    }
+
+    .toggleFullscreeninFullscreen{
+        left:800px !important;
+    }
+
+    .volume_mute_button_Startscreen_Fullscreen{
+        left:650px !important;
+    }
+    
+    .controles_Fullscreen{
+        left:760px !important;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:850px;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 830px;
+    }
+}
+
+@media (max-width:900px){
+    #startScreen{
+        width:600px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:540px;
+        top:260px;
+        width:40px;
+    }
+
+    #controles{
+        margin-left:10px;
+    }
+
+    .volume_mute_button, .controles{
+        top:170px;
+        width:40px;
+    }
+
+    /* .volume_mute_buttonWhileGameIsRunning{
+        top:170px;
+        left:450px;
+        width:40px;
+    } */
+
+    .Canvas{
+        width:600px;
+    }
+
+    .volume_mute_button{
+        left: 500px;
+    }
+
+    .controles{
+        left:550px;
+    }
+
+    .playButtons{
+        width:600px;
+    }
+
+    .toggleFullscreen{
+        width:40px;
+        left:600px;
+        top:440px;
+    }
+
+    .startScreen{
+        background-size:contain;
+        height:338px;
+        font-size:60px;
+    }
+
+    .list li{
+        display:flex;
+        align-items: center;
+        gap:5px;
+        margin-top:1px;
+        font-size:20px;
+    }
+
+    .list li img{
+        width:20px;
+        height:auto;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 700px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        top:420px;
+        left:600px;
+    }
+}
+
+@media (max-width: 750px){
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 600px;
+    }
+}
+
+@media (max-width: 700px){
+    .toggleFullscreen{
+        left:550px;
+    }
+
+    .volume_mute_button{
+        left:500px;
+    }
+
+    .controles{
+        left:550px;
+    }
+
+    .volume_mute_buttonWhileGameIsRunning{
+        left: 500px;
+    }
+
+    .toggleFullscreenWhileGameIsRunning{
+        left:550px;
+    }
+}
+
+
+@media (max-width:600px){
+    .turnDevice{
+        background-image: url('img/5_background/background.png');
+        display:flex;
+        width: 100vw;
+        height:100%;
+        z-index:999;
+        font-size:100px;
+        text-align:center;
+        justify-content: center;
+        align-items:center;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+
+    #startScreen, #ImpressumUndDatenschutz{
+        display:none;
+    }
+}
+
+@media (min-width:600px) and (max-height:670px){
+    h1{
+        display:none;
+    }
+
+    body{
+        margin:0;
+        height:100vh;
+        align-items:normal;
+    }
+
+    .toggleFullscreen, .toggleFullscreenWhileGameIsRunning{
+        display:none;
+    }
+
+    .controlbuttons img{
+        width:40px;
+    }
+
+    .Canvas{
+        width:100% !important;
+        height:100vh;
+    }
+
+    #startScreen{
+        /* margin-top: auto; */
+        /* margin-bottom: auto; */
+        width:100vw;
+        background-repeat: no-repeat;
+        height:100vh;
+    }
+
+    .playButtons{
+        top:-70px;
+        width:100%;
+    }
+
+    #walkingLeft, #walkingRight, #attackButton{
+        margin-left:30px;
+    }
+
+    #attackButton{
+        margin-right:30px;
+    }
+
+    .volume_mute_button, .controles{
+        top:60px;
+    }
+}
+
+/* @media (max-height: 670px){
+    .volume_mute_button{
+        left:800px;
+    }
+
+    .controles{
+        left:850px;
+    }
+} */
+/* 
+@media(max-height: 530px) and (min-width:600px){
+    .volume_mute_button{
+        left:200px;
+    }
+
+    .controles{
+        left:250px;
+    }
+} */

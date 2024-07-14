@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" translate="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 12 - El Pollo Loco</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="../classes/drawable-object.class.js"></script>
+    <script src="../classes/movable-object.class.js"></script>
+    <script src="../classes/character.class.js"></script>
+    <script src="../classes/chicken.class.js"></script>
+    <script src="../classes/small-chicken.class.js"></script>
+    <script src="../classes/cloud.class.js"></script>
+    <script src="../classes/status-bar.class.js"></script>
+    <script src="../classes/status-bar-Endboss.class.js"></script>
+    <script src="../classes/bottles-status-bar.class.js"></script>
+    <script src="../classes/coin-status-bar.class.js"></script>
+
+    <script src="../classes/background-object.class.js"></script>
+    <script src="../classes/keyboard.class.js"></script>
+    <script src="../classes/level.class.js"></script>
+    <script src="../classes/endboss.class.js"></script>
+    <script src="../classes/world.class.js"></script>
+    <script src="../classes/sky.class.js"></script>
+    <script src="../classes/collectableObjects.class.js"></script>
+    <script src="../classes/coin.class.js"></script>
+    <script src="../classes/bottle.class.js"></script>
+    <script src="../classes/throwable-Object.class.js"></script>
+    <script src="levels/level1.js"></script>
+    <script src="js/fullscreen.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/win.js"></script>
+    <link rel="icon" href="img/icon.png">
+    
+</head>
+<body onload="turnYourDevice()">
+    <h1 id="headline"> El pollo loco</h1>
+    <div id="startScreen" class="startScreen">
+        <p onclick="startgame();" id="startButton" class="hover">Start</p>
+        <img id="backgroundImage" src="img/9_intro_outro_screens/start/startscreen_1.png">
+        <img id="volume_mute_button" src="img/gameplay/mute.png" class="volume_mute_button icons hover" onclick="sound()">
+        <div id="ImpressumUndDatenschutz" class="ImpressumUndDatenschutz">
+            <a class="Impressum" href="impressum.html">Impressum</a>
+            <a class="Impressum" href="Datenschutzerklärung.html">Datenschutzerklärung</a>
+            <a class="Impressum" href="controles.html">Steuerung</a>
+        </div>
+    </div>
+
+    <div id="canvasDiv">
+        <canvas id="canvas" width="900" height="480" class="Canvas display-none"></canvas>
+        <img id="volume_mute_button_canvas" src="../img/gameplay/mute.png" class="volume_mute_buttonWhileGameIsRunning display-none icons hover" onclick="sound()">
+        <img src="../img/gameplay/FullScreen.png" id="toggleFullscreen_canvas" class="toggleFullscreenWhileGameIsRunning display-none icons hover" onclick="Fullscreen()">
+    </div>
+    <div id="playButtons" class="playButtons">
+        <div id="walkingButtons" class="controlbuttons, display-none">
+            <img src="../img/gameplay/buttons/links.png" id="walkingLeft" class="display-none" onclick="buttonControlsFunction(1)">
+            <img src="../img/gameplay/buttons/rechts.png" id="walkingRight" class="display-none" onclick="buttonControlsFunction(2)">
+        </div>
+        <div id="jumpAndAttackButtons" class="controlbuttons, display-none">
+            <img src="../img/gameplay/buttons/hoch.png" id="jumpingButton" class="icons, controles, display-none" onclick="buttonControlsFunction(3)">
+            <img src="../img/gameplay/buttons/fadenkreuz.png" id="attackButton" class="icons, controles, display-none" onclick="buttonControlsFunction(4)">
+        </div>
+    </div>
+
+    <div id="turnDeviceScreen" class="turnDevice display-none">
+        <p>Please turn your device</p>
+    </div>
+
+    <div id="gameOverScreen" class="gameOverScreen display-none">
+        <a id="playAgainText" class="display-none hover" onclick="startNewGame()">Play Again?</a>
+        <a href="index.html" id="backToStart" class="display-none hover">back to Start?</a>
+    </div>
+    <div id="gameWonScreen" class="gameWonScreen display-none">
+        <a id="playAgainTextWon" class="display-none hover" onclick="startNewGameIfWon()">Play Again?</a>
+        <a href="index.html" id="backToStartWon" class="display-none hover">back to Start?</a>
+    </div>
+</body>
+</html>
